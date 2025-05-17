@@ -25,4 +25,4 @@ jobs:
         run: npm ci
 
       - name: Run Cypress tests (headless Chrome)
-        run: npx cypress run --browser chrome
+        run: npx cypress run
